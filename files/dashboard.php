@@ -449,11 +449,30 @@ $canSign = true;
 								<form class="m-t-20" action="/documents">
 									<label>Eligir documento</label>
 									<select class="documents-select m-b-20 block" name="cars">
-										<option value="volvo">Volvo XC90</option>
-										<option value="saab">Saab 95</option>
-										<option value="mercedes">Mercedes SLK</option>
-										<option value="audi">Audi TT</option>
-										<option value="audi">Fotografía</option>
+<option value="CERTIFICADO DE SOLTERIA">CERTIFICADO DE SOLTERIA</option>
+<option value="COMPRAVENTA DE VEHICULOS">COMPRAVENTA DE VEHICULOS</option>
+<option value="COMPRAVENTA DE VEHICULOS C/PERSONERIA VENDEDOR">COMPRAVENTA DE VEHICULOS C/PERSONERIA VENDEDOR</option>
+<option value="DECLARACION DONANTE">DECLARACION DONANTE</option>
+<option value="DECLARACION EXTRAVIO LICENCIA DE CONDUCIR">DECLARACION EXTRAVIO LICENCIA DE CONDUCIR</option>
+<option value="DECLARACION JURADA (COLECTIVA) LEY 18.603">DECLARACION JURADA (COLECTIVA) LEY 18.603</option>
+<option value="DECLARACION JURADA DE RENUNCIA">DECLARACION JURADA DE RENUNCIA</option>
+<option value="DECLARACION JURADA LEY 18.603">DECLARACION JURADA LEY 18.603</option>
+<option value="DECLARACION NO DONANTE">DECLARACION NO DONANTE</option>
+<option value="DECLARACION RESIDENCIA">DECLARACION RESIDENCIA</option>
+<option value="FINIQUITO DE TRABAJO">FINIQUITO DE TRABAJO</option>
+<option value="PODER ADMINISTRACION INMUEBLE">PODER ADMINISTRACION INMUEBLE</option>
+<option value="PODER ALTERAR CARACTERISTICAS DE VEHICULOS">PODER ALTERAR CARACTERISTICAS DE VEHICULOS</option>
+<option value="PODER COBRO DE FINIQUITO">PODER COBRO DE FINIQUITO</option>
+<option value="PODER COBRO DE PENSION">PODER COBRO DE PENSION</option>
+<option value="PODER CUENTA CORRIENTE">PODER CUENTA CORRIENTE</option>
+<option value="PODER RETIRO PLACAS DE VEHICULOS">PODER RETIRO PLACAS DE VEHICULOS</option>
+<option value="PODER SERVICIO DE IMPUESTOS INTERNOS">PODER SERVICIO DE IMPUESTOS INTERNOS</option>
+<option value="PODER SOLICITAR PLACAS DE VEHICULOS">PODER SOLICITAR PLACAS DE VEHICULOS</option>
+<option value="PODER SOLICITAR Y RETIRAR PLACAS DE VEHICULOS">PODER SOLICITAR Y RETIRAR PLACAS DE VEHICULOS</option>
+<option value="PODER VENTA DE VEHICULOS">PODER VENTA DE VEHICULOS</option>
+<option value="PODER VENTA VEHICULOS CON CLAUSULA DE AUTOCONTRATO">PODER VENTA VEHICULOS CON CLAUSULA DE AUTOCONTRATO</option>
+<option value="PODER VENTA VEHICULOS CON CLAUSULA RESPONSABILIDAD">PODER VENTA VEHICULOS CON CLAUSULA RESPONSABILIDAD</option>
+<option value="REVOCACION DE PODER">REVOCACION DE PODER</option>
 									</select>
 									<button class="btn btn-primary m-t-20" type="submit" value="Submit">Comenzar</button>
 								</form>

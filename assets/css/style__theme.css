@@ -595,6 +595,18 @@ br{
 	color:  #999999;
 }
 
+.btn-gray{
+	background-color:  #999999;
+}
+
+.btn-gray:hover{
+	background-color:  #666;
+}
+
+button#next, button#prev {
+    background: #999;
+}
+
 .align-center{
 	text-align: center;
 }
@@ -786,6 +798,15 @@ canvas#dd_canvas {
 	min-height: 120px;
 }
 
+.document {
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.action-buttons{
+	height: 480px;
+}
+
 /*Dashboard*/
 .page-title {
     margin-bottom: 0;
@@ -887,6 +908,37 @@ canvas#dd_canvas {
 		box-shadow: 0 10px 48px rgba(30, 107, 174, 0.1), 0 1px 1px rgba(255, 248, 254, 0.61);
 }
 
+.document-pagination button {
+    border: none;
+    height: auto;
+    width: initial;
+    padding: 6px 12px !important;
+}
+
+button label{
+	margin: 0;
+	position: relative;
+	top: -1px;
+}
+.sign-overlay-btns{}
+
+.sign-overlay-btns {
+    float: none !important;
+}
+
+/*LISTA NOTARIOS*/
+.section-listbox.section-scrollbox.scrollable-y.scrollable-show.section-listbox-flex-vertical {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    overflow-y: visible;
+    position: relative;
+}
+h3.section-result-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 /*Sign*/
 body.signing-page .document {
 		max-width: 100% !important;
@@ -910,12 +962,115 @@ audio, canvas, progress, video {
 		padding: 6px 20px !important;
 }
 
+
+ul.notarios {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    overflow-y: visible;
+}
+
+li.product {
+    list-style: none;
+}
+
+.product-image {
+    display: inline-block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    background-color: #ccc;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.product-image img{
+	max-width: 100%;
+}
+
+.cd-cart .product-details {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: calc( 100% - 50px);
+    padding: .3em 0 0 .5em;
+}
+
+.cd-cart h3 {
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cd-cart .price {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+.cards-rating-score {
+    vertical-align: middle;
+    color: #e7711b;
+    margin-right: 1px;
+}
+
 /*Chat*/
 .right-bar.open {
     width: 100%;
     min-width: 100%;
 }
 
+.product-details {
+    margin-left: 110px;
+}
+
+.product-details h3 {
+    color: #2b3e51;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.quantity{
+	display: none;
+}
+
+.product a{
+    display: block;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 10px;
+	text-decoration: none;
+}
+
+.action-buttons  .btn-gray {
+    background: #f2f2f2;
+    color: #666;
+    max-width: 320px;
+    margin: 30px auto 20px;
+}
+
+.product a:active,
+.product a:hover,
+.product a:focus,
+.product a:visited
+
+ {
+    background-color: #f2f2f2;
+}
+
+/*TIMELINE*/
+.timeline li {
+    border: 0 solid #ddd;
+    list-style-type: none;
+    padding: 14px 18px;
+    border-left-width: 1px;
+    margin-left: 14px;
+}
 
 /*MODAL*/
 .modal-backdrop {
@@ -933,3 +1088,4 @@ audio, canvas, progress, video {
     border: 0;
     box-shadow: none;
 }
+

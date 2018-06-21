@@ -109,7 +109,7 @@ $msg['invalidToken'] = true;
 			<h1><div class="Splash__logotype"></div><span>Norarium</span></h1>
 		</div>
 
-<div class="content">
+<div class="content fade" style="margin: 0 auto;">
 		<div class="login-card">
 			<!-- <img src="assets/images/<?php echo $systemFavicon; ?>" class="img-responsive"> -->
 			
@@ -308,7 +308,7 @@ $msg['invalidToken'] = true;
 			<div class="copyright">
 				<p class="text-center"><?php echo date("Y"); ?> &copy; <?php echo $systemName; ?> | All Rights Reserved.</p>
 			</div>
-		</div>ç
+		</div>
 
 </div>
 		<!-- scripts -->

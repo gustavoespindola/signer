@@ -100,10 +100,10 @@ $(".request-send-file").submit(function(event) {
 		if(restricted.is(':checked')){
 			$("#request-sign").modal('hide');
 			swal({
-				title: "Signing points",
-				text:  "Click on points where the receiver will sign. The dotted signing point box will not appear on the document, it is for guidance only.",
+				title: "Puntos de firma",
+				text:  "Haga clic en los puntos donde el receptor firmará. El cuadro punteado del punto de firma no aparecerá en el documento, solo como guía.",
 				showCancelButton: true,
-				confirmButtonText: "Start Selecting",
+				confirmButtonText: "Comience seleccionando",
 				closeOnConfirm: true
 			}, function() {
 				$("body").addClass("sign request");
@@ -224,8 +224,8 @@ function sendRestrictedSigningRequest() {
 					$(".request-send-file")[0].reset();
 					$("body").removeClass("sign request");
 					swal({
-						title: "Request sent!",
-						text: "Document signing request was successfully sent..",
+						title: "Documento enviado!",
+						text: "Petición de firma de documento enviada con éxito",
 						type: "success",
 						showCancelButton: false
 					});
@@ -262,8 +262,8 @@ function sendNonRestrictedSigningRequest() {
 					$(".request-send-file")[0].reset();
 					$("body").removeClass("sign request");
 					swal({
-						title: "Request sent!",
-						text: "Document signing request was successfully sent..",
+						title: "Documento enviado!",
+						text: "Petición de firma de documento enviada con éxito",
 						type: "success",
 						showCancelButton: false
 					});
