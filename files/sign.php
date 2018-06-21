@@ -131,13 +131,13 @@ $canSign = true;
 							
 							<h3>1. Completa tus datos</h3>
 
-							<button class="btn block btn-gray" data-toggle="tooltip" data-placement="top" title="Add text"><i class="ion-compose"></i> Escribir</button>
+							<button class="btn block btn-gray sign" data-toggle="tooltip" data-placement="top" title="Add text"><i class="ion-compose"></i> Escribir</button>
 							
 							<div class="divider"></div>
 
 							<h3>2. Firma Documento</h3>
 							
-							<button class="btn block btn-gray" data-toggle="tooltip" data-placement="top" title="Sign Document"><i class="ion-edit"></i> Agregar Firma</button>
+							<button class="btn block btn-gray write" data-toggle="tooltip" data-placement="top" title="Sign Document"><i class="ion-edit"></i> Agregar Firma</button>
 							
 							<a role="menuitem" href="javascript:void(0)" class="btn btn-rounded requestf-sign block" data-toggle="modal" data-target="#request-sign"><i class="ion-ios-plus-outline"></i><span> Solicitar firma de un tercero</span></a>
 
@@ -236,6 +236,8 @@ $canSign = true;
 
 		</div>
 		<?php if($requestMode == false and $canSign or isset($request['status']) and $request['status'] != '0'){ ?>
+			<button class=" hide btn btn-danger btn-round sign" data-toggle="tooltip" data-placement="top" title="Sign Document"><i class="ion-edit"></i></button>
+			<button class=" hide btn btn-info btn-round write" data-toggle="tooltip" data-placement="top" title="Add text"><i class="ion-compose"></i></button>
 		<?php }elseif(isset($request['status']) and $request['status'] == '0'){ ?>
 		
 		<div class="request-sign-option">

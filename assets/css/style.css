@@ -1072,22 +1072,22 @@ ul.parsley-errors-list li {
     margin-right: 15px;
 }
 button.sign {
-    position: fixed;
+/*     position: fixed;
     right: 15px;
     bottom: 15px;
     height: 60px;
     width: 60px;
     font-size: 22px;
-    box-shadow: 0 10px 48px rgba(30, 107, 174, 0.1), 0 1px 1px rgba(255, 248, 254, 0.61);
+    box-shadow: 0 10px 48px rgba(30, 107, 174, 0.1), 0 1px 1px rgba(255, 248, 254, 0.61); */
 }
 button.write {
-    position: fixed;
+/*     position: fixed;
     right: 85px;
     bottom: 15px;
     height: 60px;
     width: 60px;
     font-size: 22px;
-    box-shadow: 0 10px 48px rgba(30, 107, 174, 0.1), 0 1px 1px rgba(255, 248, 254, 0.61);
+    box-shadow: 0 10px 48px rgba(30, 107, 174, 0.1), 0 1px 1px rgba(255, 248, 254, 0.61); */
 }
 .request-sign-option {
     position: fixed;

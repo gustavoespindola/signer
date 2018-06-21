@@ -807,6 +807,25 @@ canvas#dd_canvas {
 	height: 480px;
 }
 
+button.write {
+    position: relative;
+    right: inherit;
+    bottom: 0;
+    height: 50px;
+    width: inherit;
+    font-size: inherit;
+    box-shadow: none;
+}
+button.sign {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: initial;
+    font-size: inherit;
+    box-shadow: none;
+}
+
 /*Dashboard*/
 .page-title {
     margin-bottom: 0;
