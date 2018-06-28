@@ -1092,6 +1092,10 @@ li.product {
 }
 
 /*MODAL*/
+#uploadFile{
+	z-index: 999999999999999999999999999999999999999999999999999999999999;
+	background-color: white;
+}
 .modal-backdrop {
     background-color: white;
 }

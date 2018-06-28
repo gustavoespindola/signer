@@ -131,14 +131,14 @@ $canSign = true;
 							
 							<h3>1. Completa tus datos</h3>
 
-							<button class="btn block btn-gray sign" data-toggle="tooltip" data-placement="top" title="Add text"><i class="ion-compose"></i> Escribir</button>
+							<button class="btn block btn-gray write" data-toggle="tooltip" data-placement="top" title="Add text"><i class="ion-compose"></i> Escribir</button>
 							
 							<div class="divider"></div>
 
 							<h3>2. Firma Documento</h3>
 							
-							<button class="btn block btn-gray write" data-toggle="tooltip" data-placement="top" title="Sign Document"><i class="ion-edit"></i> Agregar Firma</button>
-							
+							<button class="btn block btn-gray sign" data-toggle="tooltip" data-placement="top" title="Sign Document"><i class="ion-edit"></i> Agregar Firma</button>
+
 							<a role="menuitem" href="javascript:void(0)" class="btn btn-rounded requestf-sign block" data-toggle="modal" data-target="#request-sign"><i class="ion-ios-plus-outline"></i><span> Solicitar firma de un tercero</span></a>
 
 							<div class="divider"></div>
@@ -451,7 +451,7 @@ $canSign = true;
 							<div class="form-group hide">
 								<div class="col-md-12 p-lr-o">
 									<label>Correo Electrónico</label>
-									<input type="text" class="form-control receiver-email" name="email" placeholder="Email address" value="espindolage@gmail.com">
+									<input type="text" class="form-control receiver-email" name="email" placeholder="Email address" value="justo@gatoblan.co">
 								</div>
 							</div>
 
