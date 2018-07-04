@@ -162,7 +162,7 @@ $msg['invalidToken'] = true;
 					</div>
 				</section>
 
-				<section class="slide slide-2">
+				<section class="slide slide-3">
 					<div class="container">
 						<div class="row">
 							<div class="Onboarding__image">
